@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع تحميل الفيديو والصوت</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>موقع تحميل الفيديو والصوت من YouTube</h1>
+        </header>
+
+        <main>
+            <form id="downloadForm">
+                <label for="url">أدخل رابط الفيديو:</label>
+                <input type="url" id="url" placeholder="ضع الرابط هنا" required>
+                <div>
+                    <label for="format">اختر الصيغة:</label>
+                    <select id="format" required>
+                        <option value="mp4">فيديو (MP4)</option>
+                        <option value="mp3">صوت (MP3)</option>
+                    </select>
+                </div>
+                <button type="submit">تحميل</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>حقوق الطبع والنشر &copy; 2024</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
